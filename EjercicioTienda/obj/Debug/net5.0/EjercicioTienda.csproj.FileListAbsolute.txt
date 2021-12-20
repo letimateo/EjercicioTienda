@@ -1,0 +1,15 @@
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\bin\Debug\net5.0\EjercicioTienda.deps.json
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\bin\Debug\net5.0\EjercicioTienda.dll
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\bin\Debug\net5.0\ref\EjercicioTienda.dll
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\bin\Debug\net5.0\EjercicioTienda.pdb
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.csprojAssemblyReference.cache
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.AssemblyInfoInputs.cache
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.AssemblyInfo.cs
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.dll
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\ref\EjercicioTienda.dll
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.pdb
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\bin\Debug\net5.0\EjercicioTienda.runtimeconfig.json
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\bin\Debug\net5.0\EjercicioTienda.runtimeconfig.dev.json
+C:\Desarrollo\Proyectos\Ejercicios\EjercicioTiendaAPI\EjercicioTienda\obj\Debug\net5.0\EjercicioTienda.genruntimeconfig.cache

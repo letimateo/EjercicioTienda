@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioTiendaAPI", "EjercicioTiendaAPI\EjercicioTiendaAPI.csproj", "{C4AEC18B-22B9-403C-A56C-4393D6FA6048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioTienda", "EjercicioTienda\EjercicioTienda.csproj", "{322CAE16-44CB-472A-8685-0B295D5670B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4AEC18B-22B9-403C-A56C-4393D6FA6048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AEC18B-22B9-403C-A56C-4393D6FA6048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AEC18B-22B9-403C-A56C-4393D6FA6048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AEC18B-22B9-403C-A56C-4393D6FA6048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322CAE16-44CB-472A-8685-0B295D5670B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322CAE16-44CB-472A-8685-0B295D5670B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322CAE16-44CB-472A-8685-0B295D5670B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322CAE16-44CB-472A-8685-0B295D5670B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B0450C0-2E00-4EAE-B49F-E87EDF383D3A}
+	EndGlobalSection
+EndGlobal
