@@ -76,6 +76,11 @@ namespace EjercicioTienda.Helpers
                     result.ErrorCode = "200";
                     result.Message = "Pago solicitado con éxito.";
 
+                    PaymentResponse paymentResponse = JsonConvert.DeserializeObject<PaymentResponse>(response.Content);
+
+                    if (paymentResponse.status.status == "OK")
+                        await tiendaHelper.UpdateOrderRequestId(order.Id, paymentResponse.requestId);
+
                     //tiendaHelper.UpdateOrder(order.Id, Models.Enums.Status.Payed); moverlo para el Pago result que va a ser la url a la vuelta
                 }
                 else

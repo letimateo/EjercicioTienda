@@ -95,7 +95,7 @@ namespace EjercicioTienda.Helpers
             return result;
         }
 
-        public async Task<ResultObject> UpdateOrder(int id, Status status)
+        public async Task<ResultObject> UpdateOrderStatus(int id, Status status)
         {
             ResultObject result = new ResultObject();
 
@@ -107,23 +107,69 @@ namespace EjercicioTienda.Helpers
                     order.Status = status.GetString();
                     order.UpdatedAt = DateTime.Now;
 
-                    int i = await _orderAdapter.UpdateOrder(order);
-                    if (i > 0)
-                    {
-                        result.Status = true;
-                        result.ErrorCode = "201";
-                        result.Message = "Orden modificada con éxito.";
-                    }
-                    else
-                    {
-                        result.ErrorCode = "404";
-                        result.Message = "Ha ocurrido un error al modificar la orden {id}.";
-                    }
+                    result = await this.UpdateOrder(order);
                 }
                 else
                 {
                     result.ErrorCode = "404";
                     result.Message = $"No existe orden con id {id}.";
+                }
+            }
+            catch (Exception ex)
+            {
+                result.ErrorCode = "404";
+                result.Message = ex.Message;
+            }
+
+            return result;
+        }
+
+        public async Task<ResultObject> UpdateOrderRequestId(int id, int requestId)
+        {
+            ResultObject result = new ResultObject();
+
+            try
+            {
+                Order order = await _orderAdapter.GetOrder(id);
+                if (order != null)
+                {
+                    //order.RequestId = requestId;
+                    order.UpdatedAt = DateTime.Now;
+
+                    result = await this.UpdateOrder(order);
+                }
+                else
+                {
+                    result.ErrorCode = "404";
+                    result.Message = $"No existe orden con id {id}.";
+                }
+            }
+            catch (Exception ex)
+            {
+                result.ErrorCode = "404";
+                result.Message = ex.Message;
+            }
+
+            return result;
+        }
+
+        public async Task<ResultObject> UpdateOrder(Order order)
+        {
+            ResultObject result = new ResultObject();
+
+            try
+            {
+                int i = await _orderAdapter.UpdateOrder(order);
+                if (i > 0)
+                {
+                    result.Status = true;
+                    result.ErrorCode = "201";
+                    result.Message = "Orden modificada con éxito.";
+                }
+                else
+                {
+                    result.ErrorCode = "404";
+                    result.Message = $"Ha ocurrido un error al modificar la orden {order.Id}.";
                 }
             }
             catch (Exception ex)
